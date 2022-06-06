@@ -27,7 +27,7 @@ const POKEMONS = [
   'Pikachu', 'Charmander',
   'Caterpie', 'Ekans',
   'Alakazam', 'Mew',
-  'Rapidash', 'Snorlax', 'Dragonair'];
+  'Rapidash', 'Snorlax', 'Dragonair', 'Pikachu'];
 
 describe('Pokedex component tests.', () => {
   beforeEach(() => {
