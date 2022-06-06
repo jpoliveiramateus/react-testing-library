@@ -4,7 +4,7 @@ import About from '../pages/About';
 
 const URL_IMG = 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png';
 
-describe('About component tests', () => {
+describe('About component tests.', () => {
   beforeEach(() => {
     render(<About />);
   });
@@ -15,7 +15,7 @@ describe('About component tests', () => {
     expect(titleAbout).toBeInTheDocument();
   });
 
-  it('Test if there are two paragraphs with texts about the pokédex', () => {
+  it('Test if there are two paragraphs with texts about the pokédex.', () => {
     const firstParagraph = screen
       .getByText(/This application simulates a Pokédex, a digital encyclopedia/i);
     const secondParagraph = screen
@@ -25,7 +25,7 @@ describe('About component tests', () => {
     expect(secondParagraph).toBeInTheDocument();
   });
 
-  it('Test if the image contains the correct url', () => {
+  it('Test if the image contains the correct url.', () => {
     const img = screen.getByRole('img');
 
     expect(img).toHaveAttribute('src', URL_IMG);

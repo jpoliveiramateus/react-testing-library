@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../helpers/renderWithRouter';
 import App from '../App';
 
-describe('App component tests', () => {
+describe('App component tests.', () => {
   it('Test if the links are rendered and with the correct texts.', () => {
     renderWithRouter(<App />);
 
@@ -17,7 +17,7 @@ describe('App component tests', () => {
     expect(favoriteLink).toBeInTheDocument();
   });
 
-  it('Test if when clicking on the home link the redirected path is "/"', () => {
+  it('Test if when clicking on the home link the redirected path is "/".', () => {
     const { history } = renderWithRouter(<App />);
 
     const homeLink = screen.getByRole('link', { name: 'Home' });
@@ -28,7 +28,7 @@ describe('App component tests', () => {
     expect(pathname).toBe('/');
   });
 
-  it('Test if when clicking on the about link the redirected path is "/about"', () => {
+  it('Test if when clicking on the about link the redirected path is "/about".', () => {
     const { history } = renderWithRouter(<App />);
 
     const aboutLink = screen.getByRole('link', { name: 'About' });
@@ -39,7 +39,7 @@ describe('App component tests', () => {
     expect(pathname).toBe('/about');
   });
 
-  it('When clicking on the favorites link the redirected path is "/favorites"', () => {
+  it('When clicking on the favorites link the redirected path is "/favorites".', () => {
     const { history } = renderWithRouter(<App />);
 
     const favoriteLink = screen.getByRole('link', { name: 'Favorite Pokémons' });
@@ -50,7 +50,7 @@ describe('App component tests', () => {
     expect(pathname).toBe('/favorites');
   });
 
-  it('When accessing an unknown URL the page not found is rendered', () => {
+  it('When accessing an unknown URL the page not found is rendered.', () => {
     const { history } = renderWithRouter(<App />);
     history.push('/unknown');
 
