@@ -11,7 +11,7 @@ O desafio foi implementar testes de integração e unidade com React Testing Lib
 Clone o repositório:
 
 ```
-git clone git@github.com:jpoliveiramateus/tic-tac-toe.git
+git clone git@github.com:jpoliveiramateus/react-testing-library.git
 ```
 
 ## 🔧 Instalação
@@ -19,7 +19,7 @@ git clone git@github.com:jpoliveiramateus/tic-tac-toe.git
 Entre na pasta e instale todas as dependências:
 
 ```
-cd tic-tac-toe/
+cd react-testing-library/
 npm install
 ```
 
