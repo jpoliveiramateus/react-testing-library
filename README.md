@@ -48,5 +48,5 @@ npm run test-coverage
 * JavaScript ES6+.
 
 ---
-⌨️ desenvolvido por [João Pedro Oliveira](https://www.linkedin.com/in/jo%C3%A3o-pedro-de-oliveira-mateus/) 😄
+⌨️ desenvolvido por [João Pedro Oliveira](https://www.linkedin.com/in/jpoliveira7/) 😄
 
